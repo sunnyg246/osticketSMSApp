@@ -5,15 +5,11 @@
     Main client/user interface.
     Note that we are using external ID. The real (local) ids are hidden from user.
 
-    Peter Rotich <peter@osticket.com>
-    Copyright (c)  2006-2010 osTicket
-    http://www.osticket.com
+    Sunny Gulati <sunnyg246@gmail.com>
 
     Released under the GNU General Public License WITHOUT ANY WARRANTY.
-    See LICENSE.TXT for details.
 
-    vim: expandtab sw=4 ts=4 sts=4:
-    $Id: $
+
 **********************************************************************/
 require('client-txtweb.inc.php');
 define('SOURCE','Web'); //Ticket source.
