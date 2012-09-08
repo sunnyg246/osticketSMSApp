@@ -59,7 +59,7 @@ $_GET['subject'] = strlen($inputs[2]) > 25 ? substr($inputs[2],0,20) : "txtweb t
 		curl_setopt($ch1, CURLOPT_POSTFIELDS, "txtweb-mobile=$txtweb_mobile_admin&txtweb-message=$msgtxt1");
 		$buffer1 = curl_exec($ch1);
 		curl_close($ch1);
-        $msg='Support ticket request created';
+        $msg='Support ticket request created.Plz check your mail for Ticket No.';
 		
      //   if($thisclient && $thisclient->isValid()) //Logged in...simply view the newly created ticket.
            // @header('Location: tickets.php?id='.$ticket->getExtId());
