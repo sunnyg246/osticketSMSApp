@@ -33,7 +33,7 @@ unset($_GET['message']);
 $_GET['message'] = $inputs[2];
 
 unset($_GET['subject']);
-$_GET['subject'] = "txtweb ticket"; //substr($inputs[2],0,20);
+$_GET['subject'] = strlen($inputs[2]) > 25 ? substr($inputs[2],0,20) : "txtweb ticket"; //substr($inputs[2],0,20);
 
 
 
